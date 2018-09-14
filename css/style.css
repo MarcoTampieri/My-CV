@@ -1,0 +1,94 @@
+body {
+    background-image: url(beige.jpg);
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: #31312c;
+    font-size: 50px;
+    padding: 2%;
+    border-radius: 3px;
+    margin-bottom: 1%;
+    width: 40%;
+    margin: auto;
+}
+
+
+.intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 1%;
+}
+
+.photo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:#fde496;
+    text-align: center;
+    border: solid 1px #f6cb74;
+}
+
+.info {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #fbee9f;
+    border: solid 1px #f6cb74;
+}
+
+h3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.followup {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-row-gap: 50px;
+}
+
+h4 {
+    margin-left: 2%;
+}
+
+.studi {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: #989898;
+    border: solid black 1px;
+}
+
+.esperienze {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: #B0B0B0;
+    border: solid black 1px;
+}
+
+.altri {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: #D0D0D0;
+    border: solid black 1px;
+}
+
+div {
+    border-radius: 3px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
